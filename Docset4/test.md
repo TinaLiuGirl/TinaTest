@@ -30,7 +30,7 @@ The ADO API Reference describes the functionality of the ADO application program
 > [!NOTE]
 > Microsoft ended support for Visual J++ in 2004.
 
- To accommodate this diversity, the [ADO for Visual C++ Syntax Indexes](../../../ado/guide/appendixes/using-ado-with-microsoft-visual-c.md) provide Visual C++ language-specific syntax with links to common descriptions of functionality, parameters, exceptional behaviors, and so on, in the API Reference.  
+ To accommodate this diversity, the  provide Visual C++ language-specific syntax with links to common descriptions of functionality, parameters, exceptional behaviors, and so on, in the API Reference.  
   
  ADO is implemented with COM (Component Object Model) interfaces. However, it is easier for programmers to work with COM in certain programming languages than others. For example, nearly all the details of using COM are handled implicitly for Visual Basic programmers, whereas Visual C++ programmers must attend to those details themselves.  
   
@@ -205,7 +205,7 @@ pRecordset->NextRecordset(NULL);
   
  Remember, these are ADO errors: they result from the ADO operation failing. Errors returned by the underlying provider appear as **Error** objects in the **Connection** object **Errors** collection.  
   
- The **#import** directive creates only error handling routines for methods and properties declared in the ADO .dll. However, you can take advantage of this same error handling mechanism by writing your own error checking macro or inline function. See the topic, [Visual C++ Extensions](../../../ado/guide/appendixes/visual-c-extensions-for-ado.md), or the code in the following sections for examples.  
+ The **#import** directive creates only error handling routines for methods and properties declared in the ADO .dll. However, you can take advantage of this same error handling mechanism by writing your own error checking macro or inline function. See the topic,  or the code in the following sections for examples.  
   
 ## Visual C++ Equivalents of Visual Basic Conventions  
  The following is a summary of several conventions in the ADO documentation, coded in Visual Basic, as well as their equivalents in Visual C++.  
@@ -560,7 +560,7 @@ void main() {
   
 1.  Specify an open **Connection** object in an explicitly coded **Variant**. Cast it with (IDispatch \*) so the correct constructor will be invoked. Also, explicitly set the second **_variant_t** parameter to the default value of **true**, so the object reference count will be correct when the **Recordset::Open** operation ends.  
   
-2.  The expression, `(_bstr_t)`, is not a cast, but a **_variant_t** operator that extracts a **_bstr_t** string from the **Variant** returned by **Value**.  
+2.  The expression, `(_bstr_t)`, is not a cast, but a **_variant_t** operator that extracts a **_bstr_t** string from the **Variant** returned by 1 **Value**.  
   
  The expression, `(char*)`, is not a cast, but a **_bstr_t** operator that extracts a pointer to the encapsulated string in a **_bstr_t** object.  
   
