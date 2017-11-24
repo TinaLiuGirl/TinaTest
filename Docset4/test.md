@@ -560,7 +560,7 @@ void main() {
   
 1.  Specify an open **Connection** object in an explicitly coded **Variant**. Cast it with (IDispatch \*) so the correct constructor will be invoked. Also, explicitly set the second **_variant_t** parameter to the default value of **true**, so the object reference count will be correct when the **Recordset::Open** operation ends.  
   
-2.  The expression, `(_bstr_t)`, is not a cast, but a **_variant_t** operator that extracts a **_bstr_t** string from the **Variant** returned by **Value**.  
+2.  The expression, `(_bstr_t)`, is not a cast, but a **_variant_t** operator that extracts a **_bstr_t** string from the **Variant** returned by 1 **Value**.  
   
  The expression, `(char*)`, is not a cast, but a **_bstr_t** operator that extracts a pointer to the encapsulated string in a **_bstr_t** object.  
   
