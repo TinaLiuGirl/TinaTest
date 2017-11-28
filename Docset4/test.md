@@ -28,7 +28,7 @@ ms.workload: "On Demand"
 The ADO API Reference describes the functionality of the ADO application programming interface (API) using a syntax similar to Microsoft Visual Basic. Though the intended audience is all users, ADO programmers employ diverse languages such as Visual Basic, Visual C++ (with and without the **#import** directive), and Visual J++ (with the ADO/WFC class package).  
 
 > [!NOTE]
-> Microsoft ended support for Visual J++ in 2004.
+> Microsoft ended support for Visual J++C in 2004.
 
  To accommodate this diversity, the  provide Visual C++ language-specific syntax with links to common descriptions of functionality, parameters, exceptional behaviors, and so on, in the API Reference.  
   
