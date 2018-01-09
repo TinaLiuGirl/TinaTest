@@ -552,8 +552,8 @@ void main() {
 }  
 ```  
   
-### Casting ADO object pointers with (IDispatch *)  
- The following Visual C++ example demonstrates using (IDispatch *) to cast ADO object pointers.  
+### Casting ADO object pointers with (IDispatch *)  HaHa
+ The following Visual C++ example demonstrates using (IDispatch *) to cast ADO object pointers.  
   
 #### Notes  
  The following notes correspond to commented sections in the code example.  
@@ -595,6 +595,6 @@ int main() {
    catch (_com_error &e) {  
       printf("Description = '%s'\n", (char*) e.Description());  
    }     
-   ::CoUninitialize();  
-}  
+   ::CoUninitialize();
+}  
 ```
