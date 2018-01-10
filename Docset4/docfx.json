@@ -36,6 +36,7 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "Docset4"
+    "dest": "Docset4",
+	"markdownEngineName": "dfm-latest"
   }
 }
