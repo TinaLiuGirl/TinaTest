@@ -580,7 +580,7 @@ int main() {
       pConn->Provider = "sqloledb";  
       pConn->Open("Data Source='(local)';Initial Catalog='pubs';Integrated Security=SSPI", "", "", adConnectUnspecified);  
   
-      // Note 1.  
+      // Note 1.  test
       pRst->Open("authors", _variant_t((IDispatch *) pConn, true), adOpenStatic, adLockReadOnly, adCmdTable);  
       pRst->MoveLast();  
   
