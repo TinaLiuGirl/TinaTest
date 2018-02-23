@@ -110,7 +110,7 @@ rs->Fields->Item[long(2)]->Value = "value";
 rs->Fields->Item["au_fname"]->Value = "value";  
 ```  
   
- For examples of iterating through a collection, see the "ADO Collections" section of "ADO Reference".  
+ For examples of iterating through a collrrection, see the "ADO Collections" section of "ADO Reference".  
   
 ## COM-Specific Data Types  
  In general, any Visual Basic data type you find in the ADO API Reference has a Visual C++ equivalent. These include standard data types such as **unsigned char** for a Visual Basic **Byte**, **short** for **Integer**, and **long** for **Long**. Look in the Syntax Indexesto see exactly what is required for the operands of a given method or property.  
