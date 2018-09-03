@@ -52,5 +52,5 @@
   "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
   "enable_pull_request_custom_validation": false,
-  "enable_branch_build_custom_validation": false,
+  "enable_branch_build_custom_validation": false
 }
