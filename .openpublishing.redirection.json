@@ -1,7 +1,7 @@
 {
     "redirections": [
         {
-            "source_path": "Docset5/index.md",
+            "source_path": "Docset5/index2.md",
             "redirect_url": "https://opsdocs.azurewebsites.net/en-us/opsdocs/reference/howto-onboard-reference-project?branch=master",
             "redirect_document_id": false
         }
