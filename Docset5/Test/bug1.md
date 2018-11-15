@@ -29,6 +29,6 @@ ms.custom: H1Hack27Feb2017
 
 Exact configurations and functionality supported by Oracle and SAP on Azure are documented in SAP Note [#2039619](https://launchpad.support.sap.com/#/notes/2039619)
 
-[#2039610](https://launchpad.support.sap.com/#/notes/2039610) configurations and functionality supported by Oracle and SAP on Azure are documented in SAP Note 
+[#2039610](https://launchpad.support.sap.com/#/notes/2039610) configurations and functionality supported by Oracle and SAP on Azure are documented in SAP Note 1
 
 As you realize, only the two guest operating systems of Windows and Oracle Linux are supported. Widely used SLES and RHEL Linux are not supported to deploy Oracle components in Azure. Oracle components do include as well the Oracle database client, which is used by SAP applications to connect against the Oracle DBMS. Exceptions, according to SAP Note [#2039619](https://launchpad.support.sap.com/#/notes/2039619) are SAP components, which are not using the Oracle client because those components might not need to connect to the Oracle DBMS. Such SAP components are SAP's stand-alone enqueue, message server and Enqueue replication services. Means despite running your Oracle DBMS and SAP application instances on Oracle Linux, you could run your SAP Central Services on SLES or RHEL and protect it with a Pacemaker based cluster. A HA configuration that is not supported on Oracle Linux.
