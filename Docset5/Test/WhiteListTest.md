@@ -1,0 +1,10 @@
+# New White List Test
+# [Visual Studio 15.6 and earlier](#tab/vs156)
+# [Visual Studio 15.7 and later](#tab/vs157)
+# [.NET Core 2.x](#tab/netcore2x)
+# [.NET Core 1.x](#tab/netcore1x)
+# [.NET Core 2.0](#tab/netcore20)
+# [.NET Core 2.1](#tab/netcore21)
+# [.NET Core 2.2](#tab/netcore22)
+# [.NET Core 3.0](#tab/netcore30)
+# [.NET Core 3.x](#tab/netcore3x)
